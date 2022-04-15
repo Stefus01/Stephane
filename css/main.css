@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap'); /*font-family: 'My Soul'*/
+
+html{
+    height: 250vh; 
+}
+
+/*************************************_Image_****************************************/
+
+#HdImg{
+    /* height: 100%; */
+    height: 3rem;
+    margin-left: 10rem;
+}
+
+#titresite{
+    display: flex;
+
+}
+
+/*************************************_Header_*******************************************/
+
+h1{
+    padding-left: 45rem;
+    margin: 2rem;
+    color: aliceblue;
+    position:6rem  ;
+}
+
+h2{
+    margin: 1rem;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+#hr_color{
+    color:rgb(66, 89, 134);
+}
+header{
+    display: flex;
+    margin: 2rem;
+    /* justify-content: space-between; */
+}
+
+body{
+    height: 250vh;
+    margin: 0;
+}
+.gradcolor{
+    background: 
+
+        linear-gradient(0deg,#344980,#152648);
+}
+
+/***********************************_Menu_***********************************/
+
+#menu{
+    margin: 1rem 0rem; /* Haut Bas marge 1 rem et Gauche Droite 0*/
+    padding: 0.5rem 0rem;
+    background: rgb(15, 26, 48);
+    border: 0.23rem solid rgb(66, 89, 134);
+    border-radius: 50px;
+    position: sticky; /*barre qui va rester afficher sur l'ecran en scrollant*/
+    top: 0;  /*position du pixel sur le quel il va s'arreter en px*/
+}
+
+#menu ul{
+    padding: 0; /*met espace à 0*/
+    list-style: none; /*désactive les points '*' */
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#menu a{
+    text-decoration: none;
+    color: aliceblue;
+    text-decoration: aliceblue;
+}
+
+#menu a:hover{   /* :hover = sous class & inverse colors when cursor on link */
+    background:rgb(65, 95, 150);
+    color:rgb(255, 255, 255) ;
+    border-radius: 50px;
+    margin: 7px;
+    padding: .3rem; 
+    transition: all 450ms ease-in-out;
+}
+/***********************************_Presentation_************************************/
+.hrpres{
+    border-radius: 50 px;
+}
+
+.moncv{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: aliceblue;
+}
+
+div p{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+
+
+/************************_TEST_******************************/
