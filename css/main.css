@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&family=Goldman&display=swap');/*font-family: 'Goldman', cursive;*/
 
 html{
-    height: 220vh; 
+    height: 250vh; 
 }
 
 /*************************************_Image_******************************************/
@@ -24,6 +24,7 @@ h1{
     text-align: center;
     color: aliceblue;
     font-family: 'Akshar', sans-serif; 
+    display: block;
 }
 h2, h3{
     color:#9ee3ff;
@@ -41,10 +42,7 @@ ul{
     color:rgb(66, 89, 134);
 }
 header{                               /*CORPS HEADER en haut du menu*/
-    display: flex;
-    margin: auto;
-    padding-left: 45rem;
-   
+    height: 100%;   
 }
 body{
     height: 220vh;
@@ -98,6 +96,9 @@ body{
 
 /*********************************Text presentation************************************/
 
+div{
+    margin: 10rem;
+}
 div p{                 
     color: aliceblue;
     font-family: 'Goldman';
