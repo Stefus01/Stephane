@@ -41,10 +41,7 @@ header{                               /*CORPS HEADER en haut du menu*/
 body{
     height: 250vh;
     margin: 0;
-}
-.gradcolor{
-    background: 
-        linear-gradient(to bottom, #000,12%,#152648);
+    background:linear-gradient(to bottom, #000,12%,#152648);
 }
 
 /************************************_Menu_********************************************/
