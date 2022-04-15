@@ -14,7 +14,6 @@ html{
 /*************************************_Image_******************************************/
 
 #HdImg{
-    /* height: 100%; */
     height: 1.5rem;
     margin-left: 10rem;
 }
@@ -48,7 +47,7 @@ header{                               /*CORPS HEADER en haut du menu*/
    
 }
 body{
-    height: 220;
+    height: 220vh;
     margin: 0;
     background:linear-gradient(to bottom, #000,12%,#152648);
 }
