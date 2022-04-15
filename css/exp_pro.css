@@ -1,6 +1,4 @@
-/*******************************_Main.css_fait_le_15/04/2022_à_11h20_par_KACEL_Stephane_*******************************/
-
-/*************************************_Import_Fonts_******************************************/
+/*************************************_Image_******************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap'); /*font-family: 'My Soul', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap'); /*font-family: 'Akshar', sans-serif;*/
@@ -8,44 +6,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&family=Goldman&display=swap');/*font-family: 'Goldman', cursive;*/
 
 html{
-    height: 250vh; 
+    height: 260vh; 
 }
 
 /*************************************_Image_******************************************/
 
-#HdImg{
-    /* height: 100%; */
-    height: 3rem;
-    margin-left: 10rem;
-}
-
 /************************************_Header_******************************************/
-
-h1{
-    text-align: center;
+h3{
     color: aliceblue;
-    font-family: 'Akshar', sans-serif; 
-}
-h2, h3{
-    color:#9ee3ff;
-    margin: 2rem;
-    font-family: 'Goldman';
-    text-align: center;
-}
-ul{
-    font-family: 'Goldman';
-    text-align: center;
-
+    margin: 1rem;
 }
 
-#hr_color{
-    color:rgb(66, 89, 134);
-}
 header{                               /*CORPS HEADER en haut du menu*/
     display: flex;
     margin: auto;
     padding-left: 45rem;
-   
+    color: aliceblue;
+    font-family: 'Akshar', sans-serif;    
 }
 body{
     height: 250vh;
@@ -86,38 +63,18 @@ body{
 }
 
 /**********************************_Presentation_**************************************/
-.hrpres{                       /*Barre Horizontal*/
-    border-radius: 50 px;
-}
-.moncv{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    color: aliceblue;
-    font-family: 'Goldman';
-}
 
 /*********************************Text presentation************************************/
 
 div p{                 
     color: aliceblue;
     font-family: 'Goldman';
-    text-align: center;
 }
-.fp_image{
+.exp_pro{
     margin: 2rem;
     font-size: large;
-    text-align: center;
-}
-
-.supergradcolor{
-    background: #152648 #344980 #253865;
 }
 
 /*************************************_CV_Bloc_****************************************/
 
 /**************************************_Test_******************************************/
-
-.fp_image img {
-    border-radius: 47%;
-  }
