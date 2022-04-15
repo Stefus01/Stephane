@@ -8,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&family=Goldman&display=swap');/*font-family: 'Goldman', cursive;*/
 
 html{
-    height: 250vh; 
+    height: 220vh; 
 }
 
 /*************************************_Image_******************************************/
@@ -48,7 +48,7 @@ header{                               /*CORPS HEADER en haut du menu*/
    
 }
 body{
-    height: 250vh;
+    height: 220;
     margin: 0;
     background:linear-gradient(to bottom, #000,12%,#152648);
 }
