@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap'); /*font-family: 'My Soul'*/
 
 html{
-    height: 250vh; 
+    height: 260vh; 
 }
 
 /*************************************_Image_****************************************/
@@ -32,6 +32,10 @@ h2{
     color: aliceblue;
 }
 
+h3{
+    color: aliceblue;
+    margin: 1rem;
+}
 #hr_color{
     color:rgb(66, 89, 134);
 }
@@ -47,8 +51,7 @@ body{
 }
 .gradcolor{
     background: 
-
-        linear-gradient(0deg,#344980,#152648);
+        linear-gradient(to bottom, #000,12%,#152648);
 }
 
 /***********************************_Menu_***********************************/
@@ -56,8 +59,8 @@ body{
 #menu{
     margin: 1rem 0rem; /* Haut Bas marge 1 rem et Gauche Droite 0*/
     padding: 0.5rem 0rem;
-    background: rgb(15, 26, 48);
-    border: 0.23rem solid rgb(66, 89, 134);
+    background: linear-gradient(#152648 ,rgb(5, 11, 22));
+    border: 0.23rem solid rgb(42, 60, 95);
     border-radius: 50px;
     position: sticky; /*barre qui va rester afficher sur l'ecran en scrollant*/
     top: 0;  /*position du pixel sur le quel il va s'arreter en px*/
@@ -102,6 +105,17 @@ div p{
     font-family: sans-serif;
 }
 
+#pres{
+    line-height: 1.6;
+}
 
+.fp_image{
+    margin: 1em;
+    size: 500px;
+}
+.supergradcolor{
+    background: #152648 #344980 #253865;
+}
+/************************_CV_Bloc_******************************/
 
-/************************_TEST_******************************/
+/************************_Test_******************************/
