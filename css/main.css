@@ -1,4 +1,6 @@
-/*************************************_Image_******************************************/
+/*******************************_Main.css_fait_le_15/04/2022_à_9h20_par_KACEL_Stephane_*******************************/
+
+/*************************************_Import_Fonts_******************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap'); /*font-family: 'My Soul', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap'); /*font-family: 'Akshar', sans-serif;*/
@@ -6,7 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&family=Goldman&display=swap');/*font-family: 'Goldman', cursive;*/
 
 html{
-    height: 260vh; 
+    height: 220vh; 
 }
 
 /*************************************_Image_******************************************/
@@ -19,15 +21,23 @@ html{
 
 /************************************_Header_******************************************/
 
-h2{
-    margin: 1rem;
-    font-size: xx-large;
+h1{
+    text-align: center;
     color: aliceblue;
+    font-family: 'Akshar', sans-serif; 
 }
-h3{
-    color: aliceblue;
-    margin: 1rem;
+h2, h3{
+    color:#9ee3ff;
+    margin: 2rem;
+    font-family: 'Goldman';
+    text-align: center;
 }
+ul{
+    font-family: 'Goldman';
+    text-align: center;
+
+}
+
 #hr_color{
     color:rgb(66, 89, 134);
 }
@@ -35,11 +45,10 @@ header{                               /*CORPS HEADER en haut du menu*/
     display: flex;
     margin: auto;
     padding-left: 45rem;
-    color: aliceblue;
-    font-family: 'Akshar', sans-serif;    
+   
 }
 body{
-    height: 250vh;
+    height: 220vh;
     margin: 0;
     background:linear-gradient(to bottom, #000,12%,#152648);
 }
@@ -93,19 +102,30 @@ body{
 div p{                 
     color: aliceblue;
     font-family: 'Goldman';
+    text-align: center;
 }
 .fp_image{
     margin: 2rem;
     font-size: large;
+    text-align: center;
 }
 
 .supergradcolor{
     background: #152648 #344980 #253865;
 }
 
-.cv_txt h3{
+.cv_Formations{
+
+
+}
+
+.cv_Experience{
+
+
+}
+
+.cv_Comptétencs{
     
-    font-family: 'Goldman';
 }
 
 /*************************************_CV_Bloc_****************************************/
