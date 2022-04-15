@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap'); /*font-family: 'My Soul'*/
+/*************************************_Image_******************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap'); /*font-family: 'My Soul', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap'); /*font-family: 'Akshar', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&display=swap');/*;font-family: 'Akshar', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&family=Goldman&display=swap');/*font-family: 'Goldman', cursive;*/
 
 html{
     height: 260vh; 
 }
 
-/*************************************_Image_****************************************/
+/*************************************_Image_******************************************/
 
 #HdImg{
     /* height: 100%; */
@@ -12,26 +17,13 @@ html{
     margin-left: 10rem;
 }
 
-#titresite{
-    display: flex;
-
-}
-
-/*************************************_Header_*******************************************/
-
-h1{
-    padding-left: 45rem;
-    margin: 2rem;
-    color: aliceblue;
-    position:6rem  ;
-}
+/************************************_Header_******************************************/
 
 h2{
     margin: 1rem;
     font-size: xx-large;
     color: aliceblue;
 }
-
 h3{
     color: aliceblue;
     margin: 1rem;
@@ -39,12 +31,13 @@ h3{
 #hr_color{
     color:rgb(66, 89, 134);
 }
-header{
+header{                               /*CORPS HEADER en haut du menu*/
     display: flex;
-    margin: 2rem;
-    /* justify-content: space-between; */
+    margin: auto;
+    padding-left: 45rem;
+    color: aliceblue;
+    font-family: 'Akshar', sans-serif;    
 }
-
 body{
     height: 250vh;
     margin: 0;
@@ -54,33 +47,30 @@ body{
         linear-gradient(to bottom, #000,12%,#152648);
 }
 
-/***********************************_Menu_***********************************/
+/************************************_Menu_********************************************/
 
 #menu{
-    margin: 1rem 0rem; /* Haut Bas marge 1 rem et Gauche Droite 0*/
+    margin: 1rem 0rem;          /* Haut Bas marge 1 rem et Gauche Droite 0*/
     padding: 0.5rem 0rem;
     background: linear-gradient(#152648 ,rgb(5, 11, 22));
-    border: 0.23rem solid rgb(42, 60, 95);
+    border: 0.23rem solid rgb(66, 89, 134);
     border-radius: 50px;
-    position: sticky; /*barre qui va rester afficher sur l'ecran en scrollant*/
-    top: 0;  /*position du pixel sur le quel il va s'arreter en px*/
+    position: sticky;          /*barre qui va rester afficher sur l'ecran en scrollant*/
+    top: 0;                    /*position du pixel sur le quel il va s'arreter en px*/
 }
-
 #menu ul{
-    padding: 0; /*met espace à 0*/
-    list-style: none; /*désactive les points '*' */
+    padding: 0;                /*met espace à 0*/
+    list-style: none;          /*désactive les points '*' */
     display: flex;
     justify-content: space-evenly;
     margin: auto;
 }
-
 #menu a{
     text-decoration: none;
     color: aliceblue;
     text-decoration: aliceblue;
 }
-
-#menu a:hover{   /* :hover = sous class & inverse colors when cursor on link */
+#menu a:hover{                 /*:hover= sousclass, inverse colors when cursor on link*/
     background:rgb(65, 95, 150);
     color:rgb(255, 255, 255) ;
     border-radius: 50px;
@@ -88,34 +78,43 @@ body{
     padding: .3rem; 
     transition: all 450ms ease-in-out;
 }
-/***********************************_Presentation_************************************/
-.hrpres{
+
+/**********************************_Presentation_**************************************/
+.hrpres{                       /*Barre Horizontal*/
     border-radius: 50 px;
 }
-
 .moncv{
     padding: 0;
     margin: 0;
     list-style: none;
     color: aliceblue;
+    font-family: 'Goldman';
 }
 
-div p{
+/*********************************Text presentation************************************/
+
+div p{                 
     color: aliceblue;
-    font-family: sans-serif;
+    font-family: 'Goldman';
 }
-
-#pres{
-    line-height: 1.6;
-}
-
 .fp_image{
-    margin: 1em;
-    size: 500px;
+    margin: 2rem;
+    font-size: large;
 }
+
 .supergradcolor{
     background: #152648 #344980 #253865;
 }
-/************************_CV_Bloc_******************************/
 
-/************************_Test_******************************/
+.cv_txt h3{
+    
+    font-family: 'Goldman';
+}
+
+/*************************************_CV_Bloc_****************************************/
+
+/**************************************_Test_******************************************/
+
+.fp_image img {
+    border-radius: 47%;
+  }
