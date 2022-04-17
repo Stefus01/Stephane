@@ -1,21 +1,16 @@
-/*************************************_Image_******************************************/
-
+/*******************************_exp_pro.css_fait_le_15/04/2022_à_9h20_par_KACEL_Stephane_*******************************/
 @import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap'); /*font-family: 'My Soul', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap'); /*font-family: 'Akshar', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&display=swap');/*;font-family: 'Akshar', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&family=Goldman&display=swap');/*font-family: 'Goldman', cursive;*/
-
 html{
     height: 100vh; 
 }
-
 /************************************_Image_*******************************************/
-
 #HdImg{
     height: 1.5rem;
     margin-left: 10rem;
 }
-
 /************************************_Header_******************************************/
 h4{
     color: aliceblue;
@@ -25,7 +20,6 @@ h3{
     margin: 1rem;
     font-family: 'Goldman';
 }
-
 #exp_pro{
     color:aliceblue;
     font-family: 'Goldman';
@@ -43,11 +37,7 @@ body{
     margin: 0;
     background:linear-gradient(to bottom, #000,12%,#152648);
 }
-
-/************************************_Menu_********************************************/
-
-/************************************_Cranble_*******************************************/
-
+/************************************_Button_*******************************************/
 .btn {
     color:aliceblue;
 }

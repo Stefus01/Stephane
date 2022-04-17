@@ -1,25 +1,18 @@
-/*******************************_Main.css_fait_le_15/04/2022_à_11h20_par_KACEL_Stephane_*******************************/
-
+/*******************************_Main.css_fait_le_15/04/2022_à_9h20_par_KACEL_Stephane_*******************************/
 /*************************************_Import_Fonts_******************************************/
-
 @import url('https://fonts.googleapis.com/css2?family=My+Soul&display=swap'); /*font-family: 'My Soul', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap'); /*font-family: 'Akshar', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&display=swap');/*;font-family: 'Akshar', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&family=Goldman&display=swap');/*font-family: 'Goldman', cursive;*/
-
 html{
     height: 250vh; 
 }
-
 /*************************************_Image_******************************************/
-
 #HdImg{
     height: 1.5rem;
     margin-left: 10rem;
 }
-
 /************************************_Header_******************************************/
-
 h1{
     text-align: center;
     color: aliceblue;
@@ -37,7 +30,6 @@ ul{
     text-align: center;
 
 }
-
 #hr_color{
     color:rgb(66, 89, 134);
 }
@@ -49,9 +41,7 @@ body{
     margin: 0;
     background:linear-gradient(to bottom, #000,12%,#152648);
 }
-
 /************************************_Menu_********************************************/
-
 #menu{
     margin: 1rem 0rem;          /* Haut Bas marge 1 rem et Gauche Droite 0*/
     padding: 0.5rem 0rem;
@@ -81,7 +71,6 @@ body{
     padding: .3rem; 
     transition: all 450ms ease-in-out;
 }
-
 /**********************************_Presentation_**************************************/
 .hrpres{                       /*Barre Horizontal*/
     border-radius: 50 px;
@@ -93,9 +82,7 @@ body{
     color: aliceblue;
     font-family: 'Goldman';
 }
-
 /*********************************Text presentation************************************/
-
 div{
     margin: 10rem;
 }
@@ -109,15 +96,10 @@ div p{
     font-size: large;
     text-align: center;
 }
-
 .supergradcolor{
     background: #152648 #344980 #253865;
 }
-
-/*************************************_CV_Bloc_****************************************/
-
 /**************************************_Test_******************************************/
-
 .fp_image img {
     border-radius: 47%;
   }
